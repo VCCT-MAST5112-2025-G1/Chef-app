@@ -1,4 +1,3 @@
-
 ##  Overview
 This is a restaurant management app built with **Expo** and **TypeScript**.  
 The app allows both **guests** and **chefs** to interact with the restaurant’s menu.  
@@ -36,4 +35,4 @@ It includes the following main screens:
 - Removed `react-navigation` to use **manual screen switching** with buttons and `useState`.
 - This makes the app simpler, more transparent, and easier to maintain.
 
-## 🧩 Folder Structure
+## Folder Structure
