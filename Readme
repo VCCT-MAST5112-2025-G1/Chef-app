@@ -1,0 +1,39 @@
+
+##  Overview
+This is a restaurant management app built with **Expo** and **TypeScript**.  
+The app allows both **guests** and **chefs** to interact with the restaurant’s menu.  
+
+It includes the following main screens:
+- **Home Screen** – Displays the full menu and average prices per item.
+- **Chef Screen** – Allows the chef to add or remove menu items.
+- **Filter Screen** – Allows guests to filter menu items by course (Starters, Mains, Desserts).
+
+---
+
+## Features Implemented
+
+### 1. Home Screen
+- Displays a **list of all menu items**.
+- Shows the **average price** of items dynamically as the list changes.
+
+### 2. Chef Screen
+- Allows the **chef to add menu items** (name, course, price).
+- Allows the **chef to remove menu items**.
+- Stores all menu data in an **array (stateful memory)**.
+
+### 3. Filter Screen
+- Guests can **filter menu items** by course type:
+  - Starters
+  - Mains
+  - Desserts
+
+### 4. Code Refactoring
+- The app was **refactored into multiple files and functions** for clarity.
+- TypeScript interfaces ensure **type safety and cleaner code**.
+- Utility functions are stored separately for **modularity**.
+
+### 5. Simplified Navigation
+- Removed `react-navigation` to use **manual screen switching** with buttons and `useState`.
+- This makes the app simpler, more transparent, and easier to maintain.
+
+## 🧩 Folder Structure
